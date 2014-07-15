@@ -1,5 +1,5 @@
-set :application, 'Convocatoria'
-set :repo_url, 'git@github.com:pangui/rebuss_convocatoria.git'
+set :application, 'ftw'
+set :repo_url, 'git@github.com:0nRails/ftw.git'
 
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
