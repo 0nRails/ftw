@@ -1,3 +1,45 @@
 <div class="container">
-	<h1>hi!</h1>
+    <div class="col-sm-6 col-sm-offset-3 well">
+        <center>
+        <a href="#aboutModal" data-toggle="modal" data-target="#myModal">
+		<%= image_tag("foto.jpg", :alt => "yoyo", name:"aboutme",  class: "img-circle foto") %>
+        </a>
+        <h3>Daniel Garrido</h3>
+        <em>Desarrollador, serigrafista, vendedor ambulante, bailarin y cocinero medio tiempo...Sitio en contrucción</em>
+		</center>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">Acerca de Daniel</h4>
+                    </div>
+                <div class="modal-body">
+                    <center>
+                    		<%= image_tag("foto.jpg", :alt => "yoyo", name:"aboutme",  class: "img-circle foto") %>
+</a>
+                    <h3 class="media-heading">Daniel Garrido <small>Santiago, Chile</small></h3>
+                    <span><strong>Skills: </strong></span>
+                        <span class="label label-danger">Ruby on Rails 4</span>
+                        <span class="label label-info">Javascript</span>
+                        <span class="label label-warning">HTML5/CSS</span>
+                        <span class="label label-success">GIT</span>
+                    </center>
+                    <hr>
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                        Hola, mi nombre es Daniel Garrido, lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+                    <br>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <center>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Ya oí suficiente acerca de daniel</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
